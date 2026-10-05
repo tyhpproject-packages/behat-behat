@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/behat-behat",
+    "description": "Tyhp type definitions for behat/behat 3.33.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "3.33.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/behat-behat-impl": "~3.33.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/behat-behat-impl"
+        }
+    }
+}
